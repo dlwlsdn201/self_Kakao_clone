@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/955489ca42.js"
       crossorigin="anonymous"
     ></script>
-    <title>Chat | Kakao Clone</title>
+    <title>채팅 | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -28,43 +28,64 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header__header-column">채팅</h1>
+        <a href="index.html" class="header_back-btn">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
+        <h1 class="header__header-column">Best Friend</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
-          <i class="fas fa-search fa-2x"></i>
+          <i class="fas fa-search"></i>
         </span>
         <span class="header__icon">
-          <i class="far fa-comments fa-2x"></i>
-        </span>
-        <span class="header__icon">
-          <i class="far fa-plus-square fa-2x"></i>
+          <i class="fas fa-bars"></i>
         </span>
       </div>
     </header>
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link">
-            <i class="fas fa-users"></i>
-          </a>
+    <main class="chat">
+      <ul class="chat__messages">
+        <span class="chat__timestamp">
+          Frieday, March 11, 2020
+        </span>
+        <li class="incoming-message message">
+          <img src="images/iu.jpg" class="g-avatar message" />
+          <div class="message__content">
+            <span class="message__author">
+              Best Friend
+            </span>
+            <div class="message__bubble">
+              안녕하세요 ^-^
+            </div>
+          </div>
+          <span class="message__timestamp"></span>
         </li>
-        <li class="nav__list-item">
-          <a href="chats.html" class="nav__list-link">
-            <i class="fas fa-comment-dots"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="more.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </li>
-        <li class="nav__list-item">
-          <a href="settings.html" class="nav__list-link">
-            <i class="fas fa-cog"></i>
-          </a>
+        <li class="incoming-message message">
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <div class="message__bubble">
+              헐 아이유 맞아요??
+            </div>
+          </div>
         </li>
       </ul>
-    </nav>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-column">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-column">
+        <input
+          type="text"
+          placeholder="메세지를 입력하세요"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-column">
+        <span class="chat__write-icon"> <i class="far fa-smile-wink"></i> </span
+        ><span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </div>
   </body>
 </html>
