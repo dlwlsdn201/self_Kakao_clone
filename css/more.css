@@ -1,50 +1,52 @@
-/* .more .more__btn-list,
-.more .more__suggestions-list {
-  margin: 30px 0px;
-  margin-left: 10px;
+.more .more__btn-list {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  padding: 15px 0px;
+  width: 100%;
+}
+
+.more .more__btn-list .more__btn {
+  margin: 0px auto;
+  padding: 0px auto;
   cursor: pointer;
 }
 
-.more__btn-list .more__btn,
-.more .suggestion {
-  margin-right: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.more .more__btn-list .more__btn-line {
+  border-right: 2px dotted black;
 }
 
-.more__btn .more__btn-title {
-  font-size: 14px;
-  margin-top: 15px;
+.more .more__btn-list i {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-.more .more__suggestions {
-  border-top: 1px solid #f7f7f7;
-  padding-top: 20px;
+.more .friends__friends.friend {
+  display: block;
 }
 
-.more .more__title {
-  opacity: 0.8;
-  margin-bottom: 20px;
+.more .more__header .friend__column {
+  margin-bottom: 28px;
 }
 
-.suggestion .suggestion__title {
-  font-size: 12px;
-  margin-top: 15px;
+.more .more__suggestions .more__title {
+  margin: 20px auto;
+  opacity: 0.6;
 }
 
-.suggestion .suggestion__icon {
-  background-color: #fce006;
-  padding: 10px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.suggestion__icon i {
-  font-size: 28px;
+.more .more__suggestions .more__suggestions-list i {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: white;
-} */
+  background-color: gold;
+  padding: 8px;
+  border-radius: 10px 10px;
+  cursor: pointer;
+}
+.more .more__suggestions .more__suggestions-list .fas.fa-gamepad.fa-2x {
+  width: 48px;
+  padding-left: 4px;
+}

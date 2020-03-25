@@ -1,13 +1,46 @@
-/* .friends .friends__plus {
-  padding: 20px 0px;
-  border-top: 1px solid #f7f7f7;
-  border-bottom: 1px solid #f7f7f7;
-  margin: 20px 0px;
+.friends .friends__header {
+  margin-bottom: 20px;
+  margin-top: 35px;
 }
 
-.friends__plus .friends__title,
-.friends__list .friends__title {
+.friends .friends__plus {
+  padding: 20px 0px;
+  border-top: 2px solid #f7f7f7;
+  border-bottom: 2px solid #f7f7f7;
+  margin-bottom: 20px;
+}
+
+.friends .friends__title {
+  margin-bottom: 14px;
+}
+
+.friends .friend__status {
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+.friends .friend__column .friend__now-listening {
+  border: 2px solid #2ac9dd;
+  border-radius: 15px 15px 15px 15px;
+  padding: 3px 8px;
+  font-weight: 550;
   font-size: 14px;
-  opacity: 0.6;
-  margin-bottom: 12px;
-} */
+}
+
+.friends .friend__column i {
+  border: 1px solid #2ac9dd;
+  padding: 5px;
+  padding-left: 7px;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+
+.friends .friends__list .friends__list-line {
+  border: 1px solid black;
+  box-shadow: 10px 5px 14px .5px gray;
+  margin: 10px auto;
+  width: 50px;
+  right: 50%;
+  opacity: 0.3;
+}
