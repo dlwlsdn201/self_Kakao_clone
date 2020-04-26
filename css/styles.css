@@ -25,9 +25,22 @@ a {
   text-decoration: none;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+main {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
 img {
   cursor: pointer;
 }
-
-.status-bar,
-.header {}
